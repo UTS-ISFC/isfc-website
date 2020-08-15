@@ -1,0 +1,37 @@
+.one{
+    background-color:#163f57;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    text-align: center;
+}
+.two{
+    background-color: #163f57;
+    text-align: center;
+    
+}
+.three{
+    background-color: #163f57;
+    text-align: center;
+      /* The image used */
+    background-image: url("parralax.jpg");
+
+    /* Set a specific height */
+    height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+video{
+    z-index: -1;
+}
+.headlogo{
+    z-index: 1;
+}
+
+.about{
+    color: white;
+}
