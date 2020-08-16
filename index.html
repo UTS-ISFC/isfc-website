@@ -4,13 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="index.css">
+    <!-- Google fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Armata' rel='stylesheet'>
      <!-- Bootstrap CSS -->
      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <title>UTS ISFC</title>
 </head>
 <body>
-    <!-- Navigation bar -->
-    <div>
+    <!-- Navigation bar without transparent-->
+
+    <!-- <div>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <a class="navbar-brand" href="index.html">
                 <img height="100" src="https://static.wixstatic.com/media/2ef73f_adba412ec8c5406eaee29acdbda29214~mv2_d_3153_3115_s_4_2.png/v1/fill/w_182,h_179,al_c,q_85,usm_0.66_1.00_0.01/Color%20logo%20-%20no%20background.webp" alt="isfc-logo">
@@ -47,22 +50,61 @@
                 </ul>
             </div>
         </nav>
-    </div>
+    </div> -->
 
-    <div class="overlay"></div>
-    <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
-        <source src="Inside UTS Central.mp4" type="video/mp4">
-    </video>
-    <div class="container h-100">
-        <div class="d-flex h-100 text-center align-items-center">
-            <div class="w-100 text-white">
-                <h1 class="display-3"></h1>
-                <p class="lead mb-0"></p>
-            </div>
+    <header>
+        <div class="overlay"></div>
+        <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+            <source src="Inside UTS Central.mp4" type="video/mp4">
+        </video>
+
+        <div class="container h-100">
+            <!-- Navigation bar with transparent-->
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="index.html">
+                    <img height="120" src="https://static.wixstatic.com/media/2ef73f_adba412ec8c5406eaee29acdbda29214~mv2_d_3153_3115_s_4_2.png/v1/fill/w_182,h_179,al_c,q_85,usm_0.66_1.00_0.01/Color%20logo%20-%20no%20background.webp" alt="isfc-logo">
+                </a>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html" style="color:orange">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" style="color:orange">Membership</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" style="color:orange">News</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color:orange">
+                                Our Team
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">Our Mission</a>
+                                <a class="dropdown-item" href="#">Our Team</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color:orange">
+                                Contact Us
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="#">Contact</a>
+                                <a class="dropdown-item" href="#">FAQ</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+            <!-- <img height="120" src="https://static.wixstatic.com/media/2ef73f_adba412ec8c5406eaee29acdbda29214~mv2_d_3153_3115_s_4_2.png/v1/fill/w_182,h_179,al_c,q_85,usm_0.66_1.00_0.01/Color%20logo%20-%20no%20background.webp" alt="isfc-logo"> -->
+            <h1 class="display-3 w-100 text-white text-center" style="margin-top: 5rem; font-size: 40px; font-family: Armata; background-color: hsla(9, 10%, 0%, 0.5);">UTS
+                <p>INTERNATION STUDENT FINANCE CLUB</p>
+                <p>push beyond limit</p>
+            </h1>
+            <p class="lead mb-0"></p>
         </div>
-    </div>
-      
-      
+    </header>
 
 
 
