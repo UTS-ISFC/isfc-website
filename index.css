@@ -3,10 +3,6 @@
     text-align: center;
 }
 
-/* img {
-    margin-top: 1rem;
-} */
-
 h1 {
     border: 1px solid #083246;
     outline: 10px double hsla(9, 10%, 0%, 0.5);
@@ -61,4 +57,52 @@ header .overlay {
   header video {
     display: none;
   }
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: white;
+}
+
+.flex-container > div {
+  background-color: #083246;
+  width: auto;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+  color: white
+}
+
+main > div {
+  align-content: center;
+  text-align: center;
+  font-size: 40px;
+}
+
+.image-list {
+  background-color: white;
+  padding: 20px;
+  max-width: 1000px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  display: flex;
+  align-items: center; /* added */
+}
+
+.image-list-scale {
+  width: 400px;
+  /* height: 100%; include this if you don't plan to use align-items: center */ 
+  min-width: 0;
+}
+
+.link-size {
+  font-size: 20px;
+  border: solid;
+  border-width: 10px;
+  border-color: white;
+  background-color: white;
+  color: #083246;
 }
