@@ -3,6 +3,10 @@
     font-size: 40px;
 }
 
+body {
+    height: 100%;
+}
+
 .membership-main {
     background-color: #f0efeb;
 }
@@ -22,11 +26,13 @@
 }
 
 .membership-premium-icons {
-    margin-left: 320px;
+    margin-left: 47%;
+    position: relative;
 }
 
 .membership-general-icons {
-    margin-left: 100px;
+    margin-left: 47%;
+    position: relative;
 }
 
 .membership-cost {
@@ -35,7 +41,7 @@
     text-align: center;
 }
 
-ul.b {
+.b {
     list-style-position: inside;
     text-align: center;
     color: #083246;
