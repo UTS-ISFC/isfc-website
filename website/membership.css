@@ -1,0 +1,57 @@
+.membership-intro {
+    text-align: center;
+    font-size: 40px;
+}
+
+.membership-main {
+    background-color: #f0efeb;
+}
+
+#premium-members {
+    font-weight: 500;
+    font-size: 25px;
+    color: #083246;
+    text-align: center;
+}
+
+#general-members {
+    font-weight: 500;
+    font-size: 25px;
+    color: #083246;
+    text-align: center;
+}
+
+.membership-premium-icons {
+    margin-left: 320px;
+}
+
+.membership-general-icons {
+    margin-left: 100px;
+}
+
+.membership-cost {
+    color: #083246;
+    font-size: 18px;
+    text-align: center;
+}
+
+ul.b {
+    list-style-position: inside;
+    text-align: center;
+    color: #083246;
+    font-size: 18px;
+  }
+
+.icons-postion {
+    align-content: center;
+}
+
+.link-size {
+    font-size: 20px;
+    /* border: solid;
+    border-width: 10px;
+    border-color: white;
+    background-color: white; */
+    color: #083246;
+    text-align: center;
+  }
