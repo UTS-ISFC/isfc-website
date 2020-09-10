@@ -76,6 +76,7 @@ header .overlay {
 .welcomeTitle{
   font-size: 3.0em;
   font-family: 'Raleway', sans-serif;
+  text-align: center;
 }
 
 .welcomeTitle-1{
@@ -171,10 +172,9 @@ header .overlay {
   background-color: #555;
 }
 
-.body  {
+/*.body  {
   background: linear-gradient(to bottom, #ECECEC 0%,#ECECEC 35%,#000000 35%,#083246 65%,#083246 100%);
   }
-
   .split {
     height: 100%;
     width: 25%;
@@ -183,44 +183,164 @@ header .overlay {
     top: 0;
     overflow-x: hidden;
     padding-top: 20px;
-  }
+  }*/
   
   /* Control the left side */
-  .left {
+  /*.left {
     left: 0;
     background-color: rgb(255, 255, 255);
-  }
+  }*/
   
   /* Control the right side */
-  .right {
+  /*.right {
     right: 0;
     background-color: rgb(255, 255, 255);
-  }
+  }*/
   
   /* If you want the content centered horizontally and vertically */
-  .centered {
+  /*.centered {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-  }
+  }*/
   
   /* Style the image inside the centered container, if needed */
-  .centered img {
+  /*.centered img {
     width: 150px;
     border-radius: 50%;
-  }
+  }*/
 
 /*.body {
   background-color: #ECECEC;
+}*/
+
+
+.footer{
+  padding: 1em 4.5em;
+  background:whitesmoke;
+  text-align: center;
+  color: black;
+  font-family: "Jua", sans-serif;
+  margin-top: 3em;
+  font-size: 0.9vw;
 }
 
-.background {
-  position: fixed;
-  bottom: 0px;
-  left: 0px;
-  width: 100%;
-  height: 50%;
+.footer > a{
+  text-align: center;
+  color: black;
+  font-family: "Jua", sans-serif;
+  text-decoration: none; 
+}
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+
+
+@media only screen and (max-width: 900px){
+  .content{
+      grid-template-columns: 6fr 4fr;
+  }
+
+  .mainTitle{
+      font-size: 5.5em;
+  }
+
+  .Aestable{
+      width: 70%;
+  }
+
+
+  .footer{
+      font-size:2.5vw;
+  }
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  }
+  
+  .flex-container > div {
   background-color: #083246;
-}*/
+  width: auto;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+  color: white
+  }
+  
+  main > div {
+  align-content: center;
+  text-align: center;
+  font-size: 40px;
+  }
+  
+  .image-list {
+  background-color: white;
+  padding: 20px;
+  max-width: 1000px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  display: flex;
+  align-items: center; /* added */
+  }
+  
+  .image-list-scale {
+  width: 500px;
+  /* height: 100%; include this if you don't plan to use align-items: center */ 
+  min-width: 0;
+  }
+
+  .image-list-scale1 {
+    width: 800px;
+    height: 100%;
+    min-width: 0;
+    height: 450px;  
+    }
+  
+  .link-size {
+  font-size: 20px;
+  border: solid;
+  border-width: 10px;
+  border-color: white;
+  background-color: white;
+  color: #083246;
+  }
+
+  .background-color-for-executives, .background-color-for-sponsor {
+    background-color: #083246;
+    color: white;
+    }
+
+    .background-color-for-asso {
+      background:whitesmoke;
+    }
