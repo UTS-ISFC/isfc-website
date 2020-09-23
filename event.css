@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.welcomeTitle{
+    font-size: 3.0em;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+
+.background-color-for-event {
+    background:whitesmoke;
+}
+
+.content{
+    border: solid blue;
+    grid-template-columns: 7fr 3fr;
+    margin: 3em auto;
+    width: 90vw;
+    max-width: 1000px;
+}
+.main{
+    margin: 2em;
+}
+
+.image-list-scale {
+    width: 500px;
+    /* height: 100%; include this if you don't plan to use align-items: center */ 
+    min-width: 0;
+}
+.image-list-scale1 {
+    width: 500px;
+
+    min-width: 0px;
+    height: 450px;  
+}
+.text{
+    word-break: break-all;
+}
