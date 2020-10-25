@@ -149,6 +149,11 @@ main > div {
   background: #125688;
   color: white;
 }
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
 .fa:hover {
   opacity: 0.7;
 }

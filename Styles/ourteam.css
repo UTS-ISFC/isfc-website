@@ -172,51 +172,6 @@ header .overlay {
   background-color: #555;
 }
 
-/*.body  {
-  background: linear-gradient(to bottom, #ECECEC 0%,#ECECEC 35%,#000000 35%,#083246 65%,#083246 100%);
-  }
-  .split {
-    height: 100%;
-    width: 25%;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    overflow-x: hidden;
-    padding-top: 20px;
-  }*/
-  
-  /* Control the left side */
-  /*.left {
-    left: 0;
-    background-color: rgb(255, 255, 255);
-  }*/
-  
-  /* Control the right side */
-  /*.right {
-    right: 0;
-    background-color: rgb(255, 255, 255);
-  }*/
-  
-  /* If you want the content centered horizontally and vertically */
-  /*.centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-  }*/
-  
-  /* Style the image inside the centered container, if needed */
-  /*.centered img {
-    width: 150px;
-    border-radius: 50%;
-  }*/
-
-/*.body {
-  background-color: #ECECEC;
-}*/
-
-
 .footer{
   padding: 1em 4.5em;
   background:whitesmoke;
@@ -242,6 +197,11 @@ header .overlay {
 
 .fa-linkedin {
   background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
   color: white;
 }
 
