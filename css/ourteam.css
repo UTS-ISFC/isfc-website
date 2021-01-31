@@ -267,17 +267,16 @@ header .overlay {
   }
   
   .image-list-scale {
-  width: 500px;
-  /* height: 100%; include this if you don't plan to use align-items: center */ 
-  min-width: 0;
+  width: 350px;
+  height: 100%;
+  align-items: center
   }
 
   .image-list-scale1 {
-    width: 800px;
+    width: 350px;
     height: 100%;
-    min-width: 0;
-    height: 450px;  
-    }
+    align-items: center
+  }
   
   .link-size {
   font-size: 20px;
