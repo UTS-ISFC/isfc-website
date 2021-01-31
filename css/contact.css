@@ -21,7 +21,6 @@ starter-template {
 .connect-img {
   width: auto;
   height: 600px;
-  object-fit: cover;
 }
 
 .footer{
