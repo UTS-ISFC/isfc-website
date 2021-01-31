@@ -65,30 +65,23 @@ header .overlay {
 
 .content{
   margin: 3em auto;
-  width: 90vw;
-  max-width: 1000px;
+  width: 90vw
 }
 
 .main{
   margin: 7em; 
-} 
-
-.welcomeTitle{
-  font-size: 3.0em;
-  font-family: 'Raleway', sans-serif;
-  text-align: center;
 }
 
-.welcomeTitle-1{
-  font-size: 3.0em;
+.welcomeTitle{
+  font-size: 25px;
   font-family: 'Raleway', sans-serif;
-  color: #FFFFFF;
+  text-align: center
 }
 
 .subText{
   margin-bottom: 1em;
   text-align: justify;
-  font-size: 0.9em;
+  font-size: 15px;
   color: #656565;
   font-family: 'PT Sans', sans-serif;
 }
@@ -178,8 +171,7 @@ header .overlay {
   text-align: center;
   color: black;
   font-family: "Jua", sans-serif;
-  margin-top: 3em;
-  font-size: 0.9vw;
+  margin-top: 3em
 }
 
 .footer > a{
