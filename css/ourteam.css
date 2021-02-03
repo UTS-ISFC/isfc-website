@@ -73,9 +73,9 @@ header .overlay {
 }
 
 .welcomeTitle{
-  font-size: 25px;
   font-family: 'Raleway', sans-serif;
-  text-align: center
+  text-align: center;
+  font-size: 40px;
 }
 
 .subText{
@@ -85,6 +85,7 @@ header .overlay {
   color: #656565;
   font-family: 'PT Sans', sans-serif;
 }
+
 
 /*.side{
   margin: 2em; 
@@ -255,6 +256,16 @@ header .overlay {
   text-align: center;
   font-size: 40px;
   }
+
+  table, th, td {
+    border-collapse: collapse;
+  }
+  th, td {
+    padding: 5px;
+  }
+  .align-table-text {
+    text-align: center;
+  }
   
   .image-list {
   background-color: white;
@@ -273,9 +284,10 @@ header .overlay {
   }
 
   .image-list-scale1 {
-    width: 350px;
+    width: 800px;
     height: 100%;
-    align-items: center
+    align-items: center;
+    border-radius: 20px;
   }
   
   .link-size {

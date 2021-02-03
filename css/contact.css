@@ -8,6 +8,11 @@ starter-template {
   padding: 5%;
 }
 
+.b {
+  list-style-position: inside;
+  text-align: left;
+}
+
 .heading {
   padding-top: 5%;
 }

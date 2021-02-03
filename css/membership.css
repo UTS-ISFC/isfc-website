@@ -43,7 +43,7 @@ body {
 
 .b {
     list-style-position: inside;
-    text-align: center;
+    text-align: left;
     color: #083246;
     font-size: 18px;
   }

@@ -40,8 +40,8 @@ main > div {
 }
 
 .img-size {
-  object-fit: cover !important;
-  max-width: 790px;
+  object-fit: cover;
+  max-width: auto;
   max-height: auto;
 }
 
