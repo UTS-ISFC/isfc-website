@@ -1,18 +1,18 @@
 .starter-template {
-    padding: 3rem 1.5rem;
-    text-align: center;
+  padding: 3rem 1.5rem;
+  text-align: center;
 }
 
 /* img {
-    margin-top: 1rem;
+  margin-top: 1rem;
 } */
 
 h1 {
-    border: 1px solid #083246;
-    outline: 10px double hsla(9, 10%, 0%, 0.5);
-    margin-top: 100%;
-    background-color: transparent;
-    font-family: sans-serif;
+  border: 1px solid #083246;
+  outline: 10px double hsla(9, 10%, 0%, 0.5);
+  margin-top: 100%;
+  background-color: transparent;
+  font-family: sans-serif;
 }
 
 header {
@@ -58,6 +58,7 @@ header .overlay {
   header {
     background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
   }
+
   header video {
     display: none;
   }
@@ -93,14 +94,14 @@ header .overlay {
 }
 
 .side > img{
-   display: block;
-   width: 100%;
-   margin: 0 auto 2em;
-   border: 0.25em solid #8B008B;
+  display: block;
+  width: 100%;
+  margin: 0 auto 2em;
+  border: 0.25em solid #8B008B;
 }
 
-  .side{
-    padding-top: 0;
+.side{
+  padding-top: 0;
 }
 
 .side > img{
@@ -108,7 +109,6 @@ header .overlay {
   width: 80%;
   margin: 1em auto;
 }*/
-
 
 *, *:before, *:after {
   box-sizing: inherit;
@@ -126,18 +126,15 @@ header .overlay {
   .column {
     width: 100%;
     display: block;
-    
   }
 }
 
 .card {
   box-shadow: 0 80px 80px 0 rgba(0, 0, 0, 0.2);
-  
 }
 
 .container {
   padding: 0 16px;
-  
 }
 
 .container::after, .row::after {
@@ -172,7 +169,7 @@ header .overlay {
   text-align: center;
   color: black;
   font-family: "Jua", sans-serif;
-  margin-top: 3em
+  margin-top: 3em;
 }
 
 .footer > a{
@@ -202,6 +199,7 @@ header .overlay {
   background: #125688;
   color: white;
 }
+
 .fa:hover {
   opacity: 0.7;
 }
@@ -216,22 +214,22 @@ header .overlay {
 
 
 
-@media only screen and (max-width: 900px){
-  .content{
-      grid-template-columns: 6fr 4fr;
+@media only screen and (max-width: 900px) {
+  .content {
+    grid-template-columns: 6fr 4fr;
   }
 
-  .mainTitle{
-      font-size: 5.5em;
+  .mainTitle {
+    font-size: 5.5em;
   }
 
-  .Aestable{
-      width: 70%;
+  .aestable {
+    width: 70%;
   }
 
 
-  .footer{
-      font-size:2.5vw;
+  .footer {
+    font-size:2.5vw;
   }
 }
 
@@ -239,35 +237,37 @@ header .overlay {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  }
+}
   
-  .flex-container > div {
+.flex-container > div {
   background-color: #083246;
   width: auto;
   margin: 10px;
   text-align: center;
   line-height: 75px;
   font-size: 30px;
-  color: white
-  }
+  color: white;
+}
   
-  main > div {
+main > div {
   align-content: center;
   text-align: center;
   font-size: 40px;
-  }
+}
 
-  table, th, td {
-    border-collapse: collapse;
-  }
-  th, td {
-    padding: 5px;
-  }
-  .align-table-text {
-    text-align: center;
-  }
+table, th, td {
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 5px;
+}
   
-  .image-list {
+.align-table-text {
+  text-align: center;
+}
+  
+.image-list {
   background-color: white;
   padding: 20px;
   max-width: 1000px;
@@ -275,35 +275,35 @@ header .overlay {
   margin: 0 auto;
   display: flex;
   align-items: center; /* added */
-  }
+}
   
-  .image-list-scale {
+.image-list-scale {
   width: 350px;
   height: 100%;
-  align-items: center
-  }
+  align-items: center;
+}
 
-  .image-list-scale1 {
-    width: 800px;
-    height: 100%;
-    align-items: center;
-    border-radius: 20px;
-  }
+.image-list-scale1 {
+  width: 360px;
+  height: 100%;
+  align-items: center;
+  border-radius: 20px;
+}
   
-  .link-size {
+.link-size {
   font-size: 20px;
   border: solid;
   border-width: 10px;
   border-color: white;
   background-color: white;
   color: #083246;
-  }
+}
 
-  .background-color-for-executives, .background-color-for-sponsor {
-    background-color: #083246;
-    color: white;
-    }
+.background-color-for-executives, .background-color-for-sponsor {
+  background-color: #083246;
+  color: white;
+}
 
-    .background-color-for-asso {
-      background:whitesmoke;
-    }
+.background-color-for-asso {
+  background:whitesmoke;
+}
